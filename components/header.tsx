@@ -38,10 +38,6 @@ export function Header() {
               {translations.nav.download}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#support" className="relative hover:text-accent transition-all duration-300 font-medium group">
-              {translations.nav.support}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent group-hover:w-full transition-all duration-300"></span>
-            </a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -67,10 +63,6 @@ export function Header() {
                 EN
               </button>
             </div>
-            <Button className="bg-gradient-to-r from-accent to-accent/90 hover:from-accent/90 hover:to-accent text-accent-foreground shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 px-6 py-2">
-              <Download className="w-4 h-4 mr-2" />
-              {translations.hero.downloadButton}
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
